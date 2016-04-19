@@ -9,7 +9,16 @@ class JobJobTypeMap {
     String jobTypeName
 
     static transients = ['jobTitle', 'jobTypeName']
-    static constraints = {
-        //...
-    }
+//    static constraints = {
+//        jobTitle bindable:true
+//        jobTypeName bindable:true
+//        //...
+//    }
+//
+//    public String getJobTitle(){
+//        return this.jobTitle
+//    }
+//    public String getJobTypeName(){
+//        return this.jobTypeName
+//    }
 }

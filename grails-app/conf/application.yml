@@ -52,6 +52,9 @@ grails:
     codegen:
         defaultPackage: jobproject
     spring:
+        bean:
+            packages:
+                    - jobproject
         transactionManagement:
             proxies: false
 info:
